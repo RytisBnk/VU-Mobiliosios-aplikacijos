@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AddEventInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:text="@string/enter_event_information"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_name"
+            android:textAlignment="center"
+            android:textSize="@dimen/add_entry_text_size"
+            android:id="@+id/f_event_info_name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/start_time"
+                android:textSize="@dimen/add_entry_text_size"
+                android:layout_weight="1"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:textAlignment="center"
+                android:id="@+id/f_event_info_start"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="time" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/end_time"
+                android:textSize="@dimen/add_entry_text_size"
+                android:layout_weight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:textAlignment="center"
+                android:id="@+id/f_event_info_end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="time"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/save_event"
+            android:background="@drawable/rounded_button"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:id="@+id/f_event_info_confirm"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

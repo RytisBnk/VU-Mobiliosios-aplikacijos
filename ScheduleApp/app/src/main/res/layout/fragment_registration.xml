@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="@dimen/auth_layout_margin_horizontal"
+        android:layout_marginRight="@dimen/auth_layout_margin_horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/auth_field_text_size"
+            android:textAlignment="center"
+            android:hint="@string/username"
+            android:id="@+id/register_username"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/auth_field_text_size"
+            android:textAlignment="center"
+            android:hint="@string/email"
+            android:id="@+id/register_email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/auth_field_text_size"
+            android:textAlignment="center"
+            android:hint="@string/password"
+            android:id="@+id/register_password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/auth_field_text_size"
+            android:hint="@string/repeat_password"
+            android:textAlignment="center"
+            android:id="@+id/register_repeat_password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/create_user_account"
+            android:background="@drawable/rounded_button"
+            android:textSize="@dimen/auth_button_text_size"
+            android:textColor="#FFFFFF"
+            android:paddingRight="@dimen/auth_button_horizontal_padding"
+            android:paddingLeft="@dimen/auth_button_horizontal_padding"
+            android:layout_marginTop="16dp"
+            android:id="@+id/register_confirm"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

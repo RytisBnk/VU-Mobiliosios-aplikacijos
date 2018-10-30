@@ -1,0 +1,14 @@
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/bin/Debug/netcoreapp2.1/SchedullerAPI.deps.json
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/bin/Debug/netcoreapp2.1/SchedullerAPI.runtimeconfig.json
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/bin/Debug/netcoreapp2.1/SchedullerAPI.runtimeconfig.dev.json
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/bin/Debug/netcoreapp2.1/SchedullerAPI.dll
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/bin/Debug/netcoreapp2.1/SchedullerAPI.pdb
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.csproj.CoreCompileInputs.cache
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.RazorAssemblyInfo.cache
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.RazorAssemblyInfo.cs
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.AssemblyInfoInputs.cache
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.AssemblyInfo.cs
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.RazorTargetAssemblyInfo.cache
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.dll
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.pdb
+/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Debug/netcoreapp2.1/SchedullerAPI.csprojAssemblyReference.cache

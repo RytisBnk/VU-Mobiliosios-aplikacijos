@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/bg_transparent_bordered">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Today"
+        android:textAlignment="textEnd"
+        android:layout_gravity="end"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/list_row_date"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Event name 1"
+        android:id="@+id/list_row_name"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="14.00"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:id="@+id/list_row_start_time"/>
+
+        <TextView
+            android:id="@+id/list_row_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="18.00"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/list_row_start_time"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/baseline_delete_black_36"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/row_event_delete"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

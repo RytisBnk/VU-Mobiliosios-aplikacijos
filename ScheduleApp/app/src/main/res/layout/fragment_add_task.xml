@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/create_new_task"
+            android:textAlignment="center"
+            android:textSize="@dimen/add_entry_title_size" />
+
+        <EditText
+            android:id="@+id/f_add_task_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_name"
+            android:textAlignment="center"
+            android:textSize="@dimen/add_entry_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/f_add_task_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/start_date"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textSize="@dimen/add_entry_text_size" />
+
+            <EditText
+                android:id="@+id/f_add_task_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/end_date"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textSize="@dimen/add_entry_text_size" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/f_add_task_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_duration_hours"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/add_entry_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/add_entry_text_size"
+            android:text="@string/priority" />
+
+        <Spinner
+            android:id="@+id/f_add_task_priority"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/add_entry_text_size"
+            android:background="@drawable/priority_spinner"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/create_task"
+            android:textColor="#FFFFFF"
+            android:id="@+id/f_add_task_confirm"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

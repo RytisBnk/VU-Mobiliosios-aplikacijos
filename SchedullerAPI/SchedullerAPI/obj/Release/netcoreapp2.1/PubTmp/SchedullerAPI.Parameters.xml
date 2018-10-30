@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SchedullerAPI" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/rytis/Projects/SchedullerAPI/SchedullerAPI/obj/Release/netcoreapp2\.1/PubTmp/Out/$" />
+  </parameter>
+</parameters>

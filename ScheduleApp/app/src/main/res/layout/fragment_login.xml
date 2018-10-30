@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/auth_layout_margin_horizontal"
+        android:layout_marginRight="@dimen/auth_layout_margin_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/auth_field_text_size"
+            android:textAlignment="center"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/login_email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/auth_field_text_size"
+            android:textAlignment="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:id="@+id/login_password"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="@dimen/auth_button_horizontal_padding"
+            android:paddingRight="@dimen/auth_button_horizontal_padding"
+            android:layout_marginTop="24dp"
+            android:textSize="@dimen/auth_button_text_size"
+            android:id="@+id/login_confirm"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/create_user_account"
+            android:background="#0000"
+            android:textSize="@dimen/auth_button_text_size"
+            android:textColor="#4d4dff"
+            android:layout_marginTop="8dp"
+            android:id="@+id/login_create_account"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

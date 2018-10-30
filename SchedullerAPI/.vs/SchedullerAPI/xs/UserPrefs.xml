@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{4ACFD464-F6D0-4C2A-A920-E3530253DB8B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SchedullerAPI/Controllers/EventsController.cs">
+    <Files>
+      <File FileName="SchedullerAPI/Controllers/TasksController.cs" Line="132" Column="10" />
+      <File FileName="SchedullerAPI/Controllers/EventsController.cs" Line="161" Column="1" />
+      <File FileName="SchedullerAPI/Controllers/UsersController.cs" Line="150" Column="34" />
+      <File FileName="SchedullerAPI/Models/User.cs" Line="10" Column="45" />
+      <File FileName="SchedullerAPI/Models/Event.cs" Line="16" Column="1" />
+      <File FileName="SchedullerAPI/Models/SchedullerContext.cs" Line="21" Column="37" />
+      <File FileName="SchedullerAPI/Models/Task.cs" Line="1" Column="1" />
+      <File FileName="SchedullerAPI/Migrations/20181021131653_FixSpelling.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SchedullerAPI PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
